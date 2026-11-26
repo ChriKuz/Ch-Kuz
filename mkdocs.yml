@@ -3,7 +3,7 @@ site_description: Портфолио технического писателя
 
 theme:
   name: material
-  logo: images/cat.png
+  logo: Images/cat.png
   font:
     text: Roboto
     code: Roboto Mono
