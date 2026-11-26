@@ -49,4 +49,5 @@ markdown_extensions: # Расширения markdown
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  - search # Плагин для подключения поиска на портале            
+  - search # Плагин для подключения поиска на портале
+  - glightbox            
