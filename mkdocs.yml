@@ -11,8 +11,6 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/weather-sunny
-        name: Выключить солнышко
       primary: white
       accent: purple
   features:
@@ -33,4 +31,22 @@ nav:
       - Архитектура Multi-seat Toolkit: Multi-seat Toolkit/Архитектура Multi-Seat Toolkit.md
       - Авторазвёртывание Multi-Seat Toolkit: Multi-seat Toolkit/Авторазвёртывание Multi-Seat Toolkit.md
       - Настройка конфигурации для работы системы: Multi-seat Toolkit/Настройка конфигурации для работы системы.md
-      
+
+markdown_extensions: # Расширения markdown
+  - admonition # Поддержка информационных панелей (сообщений типа «Внимание», «Совет», «Примечание», etc.)
+  - footnotes # Поддержка встроенных сносок на страницах
+  - attr_list # Использование html-атрибутов и CSS в элементах markdown
+  - md_in_html # Поддержка markdown внутри html
+  - def_list # Поддержка списков определений
+  - pymdownx.tabbed: # Использование вкладок (табов)
+      alternate_style: true
+  - pymdownx.details # Использование спойлеров (катов)
+  - pymdownx.highlight: # Подсветка синтаксиса в блоках кода
+      anchor_linenums: true
+  - pymdownx.superfences # Поддержка вложенных блоков кода
+  - pymdownx.emoji: # Иконки и эмодзи
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search # Плагин для подключения поиска на портале            
