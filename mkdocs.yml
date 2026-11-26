@@ -1,0 +1,36 @@
+site_name: Кристина Кузнецова
+site_description: Портфолио технического писателя
+
+theme:
+  name: material
+  logo: images/cat.png
+  font:
+    text: Roboto
+    code: Roboto Mono
+  language: ru
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Выключить солнышко
+      primary: white
+      accent: purple
+  features:
+    - navigation.path
+    - navigation.indexes
+    - navigation.expand
+    - navigation.instant
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+nav:
+  - Главная страница: index.md
+  - Multi-seat Toolkit:
+      - Multi-seat Toolkit/index.md
+      - О Multi-seat Toolkit: Multi-seat Toolkit/О Multi-Seat Toolkit.md
+      - Программные и аппаратные требования: Multi-seat Toolkit/Программные и аппаратные требования.md
+      - Архитектура Multi-seat Toolkit: Multi-seat Toolkit/Архитектура Multi-Seat Toolkit.md
+      - Авторазвёртывание Multi-Seat Toolkit: Multi-seat Toolkit/Авторазвёртывание Multi-Seat Toolkit.md
+      - Настройка конфигурации для работы системы: Multi-seat Toolkit/Настройка конфигурации для работы системы.md
+      
